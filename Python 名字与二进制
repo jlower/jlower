@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+a = '肖睿杰'
+d = '肖科弘'
+
+for i in a:
+    print(i)   # 输出单个中文
+    i1 = bytes(i, encoding='utf-8')
+    print(i1)  # 十六进制
+for b in i1:
+    print(b)  # 十进制
+    i2 = bin(b)
+    print(i2)    #二进制
+
+
+
+for s in d:
+    print(s)   # 输出单个中文
+    s1 = bytes(s, encoding='utf-8')
+    print(s1)  # 十六进制
+for f in s1:
+    print(b)  # 十进制
+    s2 = bin(f)
+    print(s2)    #二进制
+
+
+#输出‘肖睿杰’，'肖科弘'的二进制对应数
