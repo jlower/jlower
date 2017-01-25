@@ -1,0 +1,67 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+i1 = input ('请输入公历年：')
+i2 = int(i1)
+a = i2 - 3
+
+
+#天干
+
+
+b = a % 10
+if b==1:
+    print('甲')
+elif b==2:
+    print('乙')
+elif b==3:
+    print('丙')
+elif b ==4:
+    print('丁')
+elif b==5:
+    print('戊')
+elif b==6:
+    print('己')
+elif b==7:
+    print('庚')
+elif b==8:
+    print('辛')
+elif b==9:
+    print('壬')
+else:
+    print('癸')
+    
+    
+#地支
+
+
+c = a % 12
+if c==1:
+    print('子')
+elif c==2:
+    print('丑')
+elif c==3:
+    print('寅')
+elif c==4:
+    print('卯')
+elif c==5:
+    print('辰')
+elif c==6:
+    print('巳')
+elif c==7:
+    print('午')
+elif c==8:
+    print('未')
+elif c==9:
+    print('申')
+elif c==10:
+    print('酉')
+elif c==11:
+    print('戌')
+else:
+    print('亥')
+"""
+#2017年 ==> 丁酉  年[验证]
+#n - 3 % 10  天干     n - 3%12   地支
+#1甲、2乙、3丙、4丁、5戊、6己、7庚、8辛、9壬、10癸  天干
+#1子、2丑、3寅、4卯、5辰、6巳、7午、8未、9申、10酉、11戌、12亥    地支
+"""
