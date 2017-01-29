@@ -1,0 +1,10 @@
+#第一个装饰器
+def k(f):
+    def in_k(x,y):
+        print('in in_k')
+        return f(x,y)
+    return in_k
+@k
+def bar(x,y):
+    print('in bar', x + y)
+bar(0,233)
