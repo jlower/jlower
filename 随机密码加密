@@ -1,0 +1,41 @@
+#随机生成4位数的name与6位数的password
+
+import random
+charactor='abcdefghijklmnopqrstuvwxyz0123456789'
+len_char = len(charactor)-1
+#     generate name
+
+num1=0
+a=[0]*4
+while num1<=3:
+    a[num1]=charactor[random.randint(0,len_char)]
+    num1 += 1
+name=''.join(a)
+
+#      generate password
+num2=0
+b=[0]*6
+while num2<=5:
+    b[num2]=charactor[random.randint(0,len_char)]
+    num2 += 1
+password=''.join(b)
+
+#      write file
+f=open('jlower_specilly.txt','w')
+f.write(name+','+password+'\n')
+f.close()
+#只加密密码ing==================================(加密部分)仅在Python2.7中可运行======================================================
+#     read file
+
+f=open('jlower_specilly.txt','r')
+name_password = f.readline().strip().split(',')
+f.close()
+#     md5 process
+
+import hashlib
+password_md5 = hashlib.md5(name_password[1]).hexdigest()
+#     write file
+
+f=open('jlower_specilly_md5.txt','w')
+f.write(name_password[0]+','+password_md5+'\n')
+f.close()
