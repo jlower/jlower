@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-a = '肖睿杰'
-d = '肖科弘'
+a = '乡村'
+d = '市里'
 
 for i in a:
     print(i)   # 输出单个中文
