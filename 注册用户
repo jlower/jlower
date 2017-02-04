@@ -39,8 +39,9 @@ while True:
 		password = input('请输入密码:')
 		# 检查是否有效
 		if len(password) < 6:
-			print("你的输入密码%s不够6位, 请重新输入!" % (password))
-		else:
+		    print("你的输入密码%s不够6位, 请重新输入!" % (password))
+		    continue			
+                else:
 			for a in password:
 				if not a in charactor:
 					valid = False
