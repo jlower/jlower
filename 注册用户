@@ -39,9 +39,9 @@ while True:
 		password = input('请输入密码:')
 		# 检查是否有效
 		if len(password) < 6:
-		    print("你的输入密码%s不够6位, 请重新输入!" % (password))
-		    continue			
-                else:
+			print("你的输入密码%s不够6位, 请重新输入!" % (password))
+			continue
+		else:
 			for a in password:
 				if not a in charactor:
 					valid = False
@@ -50,17 +50,11 @@ while True:
 	# write file
 	if valid:
 		file = open(filename, 'a')
-		file.write(name + ',' + password + '\n')
-		file.close()
-"""
-"""
-		#加密只在Python2.7中可行
+		password = bytes(password, encoding='utf-8')
 		# md5 process
 		import hashlib
 		password_md5 = hashlib.md5(password).hexdigest()
 		file.write(name + ',' + password_md5 + '\n')
 		file.close()
-"""
-"""
 		print("恭喜你，注册成功")
 		break
