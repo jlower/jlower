@@ -1,0 +1,17 @@
+y=input('请输入需判断的数:')
+y=int(y)
+x = y // 2
+l1=[1,y]
+while x > 1:
+    if y % x == 0:
+        k1=1
+        print(y, '是合数，有因数has factor', x)
+        l1.append(x)
+        x -= 1
+        continue
+    x -= 1
+if k1==1:
+    print('此数拥有的因数：')
+    print(l1)
+else:# 新用法Normal exit正常退出时执行
+    print(y, '是质数is prime number')
