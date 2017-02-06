@@ -28,6 +28,7 @@ def for_loop(length):
             if x * y > 25:
                 a.append((x, y))
     return a
+#测试
 if __name__ == '__main__':
     a = list_comp(100)
     print(len(a))
