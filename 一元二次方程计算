@@ -1,5 +1,30 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
+import math
+#===================================不把根号变成小数只出开的完的
+def quadratic_equation(a, b, c):
+    s1 = b**2-4*a*c
+    if s1>=0:
+        s=str(math.sqrt(s1))
+        if s.find('.')==-1:
+            x1=(-b+math.sqrt(s1))/(2*a)
+            x2=(-b-math.sqrt(s1))/(2*a)
+            print(x1,x2)
+        else:
+            print('x1=',2*a,'分之',-b,'+ -','根号',s1)
+    else:
+        e = 'No answer'
+        print(e)
+
+i1 = input('请输入二次项:')
+i2 = input('请输入一次项:')
+i3 = input('请输入常数项:')
+i1 = int(i1)
+i2 = int(i2)
+i3 = int(i3)
+quadratic_equation(i1, i2, i3)
+
+"""
 
 import math
 
@@ -21,3 +46,4 @@ i2 = int(i2)
 i3 = int(i3)
 q = quadratic_equation(i1, i2, i3)
 print(q)
+"""
