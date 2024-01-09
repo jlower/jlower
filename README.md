@@ -1,4 +1,4 @@
-### Hi there , I'm [lowo!](https://lowo.github.io/blog) 👋
+### Hi there , I'm [lowo!](https://jlower.github.io/blog) 👋
 
 <!--
 **jlower/jlower** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
