@@ -16,9 +16,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-> Most used languages Except HTML
+> Most used languages Except HTML and CSS
 
-![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jlower&layout=compact&hide=html)
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jlower&layout=compact&hide=html,css)
 
 <details>
 <summary>
@@ -40,3 +40,4 @@ Here are some ideas to get you started:
 <br />
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=jlower)
+
