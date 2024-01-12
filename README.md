@@ -16,7 +16,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
+> Most used languages Except HTML
 
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jlower&layout=compact&hide=html)
 
 <details>
 <summary>
