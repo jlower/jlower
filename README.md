@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 > Most used languages Except HTML and CSS
 
-![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jlower&layout=compact&hide=html,css)
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jlower&layout=compact&theme=vue-dark&hide=html,css)
 
 <details>
 <summary>
@@ -36,7 +36,7 @@ Here are some ideas to get you started:
 
 <div><p>My profile overview: </p></div>
 
-![Apurv's github stats](https://github-readme-stats.vercel.app/api?username=jlower&show_icons=true)
+![Apurv's github stats](https://github-readme-stats.vercel.app/api?username=jlower&show_icons=true&theme=vue-dark)
 <br />
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=jlower)
