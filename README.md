@@ -28,6 +28,7 @@ Here are some ideas to get you started:
 <br />
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jlower&repo=BlueArchive-Cursors)](https://github.com/jlower/BlueArchive-Cursors)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jlower&repo=majsoul-helper)](https://github.com/jlower/majsoul-helper)
 
 <br />
 
