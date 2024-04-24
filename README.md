@@ -29,7 +29,7 @@ Here are some ideas to get you started:
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jlower&repo=BlueArchive-Cursors)](https://github.com/jlower/BlueArchive-Cursors)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jlower&repo=majsoul-helper)](https://github.com/jlower/majsoul-helper)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jlower&repo=mahjong-helper-majsoul-mitmproxy)](https://github.com/jlower/mahjong-helper-majsoul-mitmproxy)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jlower&repo=majsoul-mod-mahjong-helper-mitmproxy)](https://github.com/jlower/majsoul-mod-mahjong-helper-mitmproxy)
 
 <br />
 
